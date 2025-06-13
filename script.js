@@ -25,7 +25,8 @@ if((humanChoice === "rock" && computerChoice === "scissor") || (humanChoice === 
     console.log(`You win! ${humanChoice} beats ${computerChoice}`);
     humanScore++;
  } else {
-    console.log(`You Lose! ${computerChoice} beats ${humanChoice}`)
+    console.log(`You Lose! ${computerChoice} beats ${humanChoice}`);
+    computerScore++;
  }
 }
 
